@@ -51,3 +51,33 @@ main {
 .on {
     opacity: 1;
 }
+
+.container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .options {
+    flex: 1; /* Adjust the flex value as needed */
+    background-color: grey; /* or any color for the option panel background */
+    width: 400px;
+    height: 800px;
+    margin-right: 10px;
+    border: 3px solid red;
+  }
+  
+  .output {
+    flex: 3; /* Adjust the flex value as needed for a larger preview area */
+    background-color: gray; /* or any color for the live preview background */
+    width: 400px;
+    height: 800px;
+    margin-left: 10px;
+    border: 3px solid blue;
+  }
+
+.abc {
+    display: block;
+    margin: 0% auto;
+    text-align: center;
+    margin-top: 20px;
+}
